@@ -1,9 +1,5 @@
 #!/usr/bin/env python3
-"""
-Azure DevOps工作项分析脚本
-用于分析Bug/Issue的CSV导出文件
-格式：ID,Work Item Type,Title,Assigned To,State,Tags,Created Date,Priority,Closed Date,Story Points,Area Path
-"""
+
 
 import csv
 import sys
