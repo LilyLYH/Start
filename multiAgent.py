@@ -63,8 +63,6 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-
-
 def get_attraction(city: str, weather: str) -> str:
     """
     根据城市和天气，使用Tavily Search API搜索并返回优化后的景点推荐。
